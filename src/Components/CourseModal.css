@@ -1,0 +1,56 @@
+/* .modalCard{
+       height: 7% !important;
+} */
+
+/* .modalStyle{
+       
+       height: 40% !important;
+} */
+
+/* width: 20rem !important; */
+
+/* This styles the modal */
+.modal-content
+{
+       margin-top: 10% !important;
+       border-radius: 15px !important;
+       border: 5px solid #810c9c !important;
+       /* max-height: 80% !important;
+       min-height: 70% !important */
+       height: 80% !important;
+}
+
+.modal-dialog{
+       width: 60vw !important;
+       /* min-width: 650px; */
+       max-width: 100vw !important;
+       margin: 0rem auto !important;
+}
+
+.modal-header{
+       background-color: #e7c4ff;
+}
+
+/* .modal-dialog {
+       max-width: auto !important;
+       margin: 0rem !important;
+} */
+
+/* .modal .modal-dialog{
+       max-height: 80%;
+       min-width: 60%;
+} */
+
+/* .modal.fade .modal-dialog{
+       max-height: 80%;
+       min-width: 60%;
+} */
+
+.fade {
+       /* opacity: 0 !important; */
+       -webkit-transition: none;/*opacity 0.0s linear !important;*/
+          -moz-transition: none;/*opacity 0.0s linear !important;*/
+           -ms-transition: none;/*opacity 0.0s linear !important;*/
+            -o-transition: none;/*opacity 0.0s linear !important;*/
+               transition: none;/*opacity 0.0s linear !important;*/
+     }

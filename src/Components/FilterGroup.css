@@ -1,0 +1,21 @@
+.formCheckBox label{
+       width: 100%;
+       cursor: pointer;
+       /* color: #6c757d !important; */
+       /* font-weight: 500 !important; */
+}
+
+input{
+       cursor: pointer;
+}
+
+.filterGroup{
+       /* width: 15rem; */
+       margin-bottom: 15%;
+       /* padding: 1rem; */
+       /* height: auto;
+       border-radius: 10px !important;
+       border: 0.2rem solid rgb(241, 238, 238)  !important;
+       background-color: rgb(241, 238, 238) !important; */
+}
+
