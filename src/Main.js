@@ -78,7 +78,7 @@ const Main = () => {
         let finalMatched = [];
         for (let i = 0; i < matched.length; i++) {
             // console.log("hii");
-            let course = courseList[matched[i]];
+            let course = courseList[matched[i]]["id"] + courseList[matched[i]]["name"] + courseList[matched[i]]["courseInfo"].description;
             let courseJSON = JSON.stringify(course).toLowerCase();
             // console.log(courseJSON)
             if (courseJSON.includes(searchString.toLowerCase())) {
@@ -139,7 +139,7 @@ let course1 = {
     courseInfo: {
         description:
             "COMP_SCI 211 teaches foundational software design skills at a small-to-medium scale.",
-        prerequisites: ["COMP_SCI 211", "COMP_SCI 213"],
+        prerequisites: ["COMP_SCI 213"],
         sequenceCourses: ["COMP_SCI 213"],
         relatedCourses: ["COMP_SCI 213"],
     },       
@@ -147,7 +147,7 @@ let course1 = {
 
     tags: {
         careerTag: ["software engineering", "web development"],
-        topicTag: ["topic1"],
+        topicTag: ["software"],
         sequenceTag: ["core sequence"],
         requirementTag: ["core courses"],
         quarterTag: ['Fall', 'Spring'],
@@ -159,13 +159,13 @@ let course2 = {
     name: "Intro to Computer Systems",
     courseInfo: {
         description: "We learn about computer systems",
-        prerequisites: ["COMP_SCI 211", "COMP_SCI 213"],
+        prerequisites: ["COMP_SCI 211",],
         sequenceCourses: ["COMP_SCI 211"],
-        relatedCourses: ["COMP_SCI 213"],
+        relatedCourses: ["COMP_SCI 376", 'COMP_SCI 377'],
     },
     tags: {
         careerTag: ["software engineering", "research"],
-        topicTag: ["system"],
+        topicTag: ["systems"],
         sequenceTag: ["core sequence"],  
         quarterTag: ['Fall', 'Winter', 'Spring']
     },
